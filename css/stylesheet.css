@@ -20,7 +20,9 @@ h1 {
 }
 img {
   height: 75px;
--webkit-filter: grayscale(1);  
+  filter: gray; /* for IE */
+  filter: grayscale(1); /*fire fox*/
+  -webkit-filter: grayscale(1); /* chrome */  
 }
 /*this shows color and title of tool on hover*/
 .html5 {
@@ -29,10 +31,11 @@ img {
 .html5:hover img {
   height: 75px;
   -webkit-filter: grayscale(0);
+  filter: none;
 }
 .html5:hover  .title {
-  visibility: hidden;
+  visibility: visible;
 }
 .title {
-  visibility: visible;
+  visibility: hidden;
 }
