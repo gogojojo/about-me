@@ -1,4 +1,19 @@
-h1 {
-  color: red;
+body {
+  margin: 0px;
 }
-
+.header {
+  height: 200px;
+  width: 100%;
+}
+.logo {
+  height: 100%;
+  width: 25%;
+  background-color: yellow;
+  display: inline-block;
+}
+.navigation {
+  width: 74%;
+  height: 100%;
+  background-color: dodgerblue;
+  display: inline-block;
+}
