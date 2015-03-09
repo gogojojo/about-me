@@ -9,3 +9,30 @@ body {
 h1 {
   display: inline;
 }
+.jumbotron {
+  background-color:black;
+  opacity: .2;
+  height: 200px;
+}
+.bg {
+  background-image: url("../img/concrete_seamless.png");
+  height: 200px;
+}
+img {
+  height: 75px;
+-webkit-filter: grayscale(1);  
+}
+/*this shows color and title of tool on hover*/
+.html5 {
+  display: inline-block;
+}
+.html5:hover img {
+  height: 75px;
+  -webkit-filter: grayscale(0);
+}
+.html5:hover  .title {
+  visibility: hidden;
+}
+.title {
+  visibility: visible;
+}
