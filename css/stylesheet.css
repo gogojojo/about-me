@@ -2,18 +2,9 @@ body {
   margin: 0px;
 }
 .header {
-  height: 200px;
+  height: 150px;
   width: 100%;
 }
-.logo {
-  height: 100%;
-  width: 25%;
-  background-color: yellow;
-  display: inline-block;
-}
-.navigation {
-  width: 74%;
-  height: 100%;
-  background-color: dodgerblue;
-  display: inline-block;
+h1 {
+  display: inline;
 }
