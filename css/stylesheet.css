@@ -1,27 +1,29 @@
 body {
   margin: 0px;
   text-align: center;
+  color: #262C3A;
 }
 h1 {
-  font-family: 'Roboto', sans-serif;
-  margin-top: 0 ;
-  letter-spacing: 5px;
-  font-size: 100px;
-  padding-top: 30px;
+  font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 51px;
+    font-size: 126px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 190px;
+    letter-spacing: 4px;
 }
 .header {
   height: 60px;
   width: 100%;
-  background-color: peachpuff;
 }
 .jumbotron {
-  background-color: purple;
   opacity: .5;
-  height: 200px;
+  height: 300px;
 }
 .bg {
   background-image: url("../img/concrete_seamless.png");
-  height: 200px;
+  height: 300px;
 }
 img {
   height: 125px;
@@ -44,4 +46,36 @@ img {
 }
 .title {
   visibility: hidden;
+}
+.bio {
+  background-color: lightgray;
+}
+h2 {
+   font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 51px;
+    font-size: 76px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 40px;
+}
+h3 {
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+p {
+  font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+a {
+  font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
 }
