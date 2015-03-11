@@ -24,7 +24,7 @@ h1 {
   background-color:#262C3A;
 }
 .jumbotron {
-  opacity: .5;
+  opacity: .6;
   height: 300px;
   background-color: #00DDD8;
 }
@@ -60,6 +60,7 @@ img {
   padding: 10px 20px;
   margin-top: 20px;
   border-radius: 5px;
+  text-align: center;
 }
 .bio {
   background-color: lightgray;
@@ -91,8 +92,26 @@ a {
   font-family: 'Droid Serif', serif;
     font-size: 16px;
     line-height: 23px;
-    margin: 0 0 23px 0;
+    margin: 70px 30px 70px 30px;
     text-decoration: none;
+    display: block;
+    background-color: white;
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: -2px 2px 1px #888888;
+    color:#517398;
+}
+h4 {
+   font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 2px auto;
+    color: white;
+    letter-spacing: 1.5px;
 }
 .biography {
   padding: 0 120px 60px 120px;
@@ -100,4 +119,15 @@ a {
 .content {
   width: 85%;
   margin-left: 15%;
+}
+.logo {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.me {
+}
+.me p {
+  color white;
+  font-size: 10px;
+  text-align:center;
 }
