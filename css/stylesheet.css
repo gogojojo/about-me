@@ -133,16 +133,18 @@ h4 {
 }
 iframe {
   margin-top: 60px;
-  margin-right: 90px;
 }
 .info {
   display: inline-block;
   margin-top: 60px;
-  margin-left: 90px;
-  margin-right: 74px;
   font-size: 25px;
-  position: relative;
-  bottom: 130px;
+  float: left;
+  padding-left: 90px;
+}
+.map {
+  float: left;
+  padding-right: 90px;
+  padding-bottom: 60px;
 }
 .info h2{
   display: inline;
@@ -165,6 +167,7 @@ iframe {
   filter: none;
   height: 50px;
   display: inline-block;
+  margin-right: 20px;
 }
 .info p a {
   height: 25px;
