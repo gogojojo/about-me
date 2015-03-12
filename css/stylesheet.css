@@ -183,30 +183,32 @@ iframe {
   filter: none;
   width: 100%;
 }
-.one:hover img {
+.container:hover img {
   opacity: .5;
 }
 .opacity {
   margin-left: 60px;
   margin-top: 60px;
+  margin-right: 60px;
   background: black;
 }
 
 .one p { 
    position: relative; 
-   top: 80px; 
+   top: 120px; 
    left: 0; 
-   width: 300px; 
    height: 0px;
-   margin-left: 180px;
-   margin-right: 80px;
    bottom: 30px;
    z-index: 1;
    visibility: hidden;
    margin-bottom: 0px;
    color: white;
+   font-size: 1vw;
+   padding-right: 25%;
+   width: 50%;
+   padding-left: 25%;
 }
-.one:hover p{
+.container:hover p{
   visibility: visible;
 }
 .one a {
@@ -214,5 +216,13 @@ iframe {
   padding: 0px;
   margin: 0px;
   background-color: black;
+}
+.one h2 { 
+  font-size: 30px;
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  padding-top: 30px;
 }
 
